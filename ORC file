@@ -1,0 +1,46 @@
+import pyorc
+
+# Define the schema for the ORC file as a string
+schema = 'struct<Customer_ID:string,First_Name:string,Last_Name:string,State:string,Mobile_NO:string,Home_address:string,IP_Address:string,City:string,Phone_address:string,Related_accounts_KYC:string,Related_accounts_by_system:string,User_behaviour:string,Transaction_Pattern:string,Type_amount:string,Card_type:string,Avg_transaction_amount:string,Avg_transaction_frequency:string,Type_of_transaction:string>'
+
+# Define the data to write to the ORC file
+data = [('127546983215', 'Akhil', 'I', 'Delaware', '1234567890', '123 Main St', '192.168.0.1', 'Wilmington', '9876543210', 'Yes', 'Yes', 'Online Shopper', 'Frequent', 'High', 'Visa', '500.75', '1.5', 'Online'),
+        ('123456789101', 'John', 'Doe', 'California', '555-555-5555', '456 Elm St', '192.168.0.2', 'San Francisco', '444-444-4444', 'No', 'Yes', 'In-store Shopper', 'Infrequent', 'Low', 'Mastercard', '100.00', '0.5', 'In-store'),
+        ('789456123012', 'Jane', 'Doe', 'New York', '999-999-9999', '789 Oak St', '192.168.0.3', 'New York City', '111-111-1111', 'Yes', 'No', 'Online Shopper', 'Frequent', 'Medium', 'Amex', '300.00', '1.0', 'Online'),('124567893215', 'Vivek', 'O', 'Kentucky', '1234567890', '123 Main St', '192.168.0.1', 'Louisville', '9876543210', 'Yes', 'No', 'Occasional', 'Infrequent', 'Low', 'Mastercard', '100.25', '2.5', 'In-store'),
+        ('129874356098', 'Balu', 'W', 'Michigan', '1234567890', '123 Main St', '192.168.0.1', 'Detroit', '9876543210', 'No', 'Yes', 'Online Shopper', 'Frequent', 'Medium', 'American Express', '1000.00', '1.0', 'Online'),
+        ('126789430215', 'Manu', 'Q', 'Oregon', '1234567890', '123 Main St', '192.168.0.1', 'Portland', '9876543210', 'Yes', 'Yes', 'Occasional', 'Infrequent', 'High', 'Discover', '750.50', '2.0', 'In-store'),
+        ('121356789132', 'Manasa', 'T', 'Kansas', '1234567890', '123 Main St', '192.168.0.1', 'Wichita', '9876543210', 'No', 'No', 'Online Shopper', 'Frequent', 'Low', 'Visa', '50.00', '3.0', 'Online'),
+        ('127546983215', 'Akhil', 'I', 'Delaware', '1234567890', '123 Main St', '192.168.0.1', 'Wilmington', '9876543210', 'Yes', 'Yes', 'Online Shopper', 'Frequent', 'High', 'Visa', '500.75', '1.5', 'Online'),('437892659218', 'Sara', 'K', 'California', '0987654321', '456 Elm St', '10.0.0.1', 'Los Angeles', '1234567890', 'No', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'Mastercard', '250.50', '1.0', 'In-Store'),('238567123489', 'John', 'P', 'Texas', '5551234567', '789 Oak St', '172.16.0.1', 'Houston', '9876543210', 'Yes', 'Yes', 'Online Shopper', 'Frequent', 'Medium', 'Amex', '750.00', '2.0', 'Online'
+),('874592163287', 'Emily', 'L', 'Florida', '3216549870', '321 Pine St', '192.168.0.10', 'Miami', '0987654321', 'No', 'Yes', 'Hybrid Shopper', 'Frequent', 'High', 'Visa', '1200.00', '3.0', 'Online'
+),('659231874592', 'Jacob', 'M', 'New York', '4445556666', '567 Maple St', '10.0.0.5', 'New York City', '2223334444', 'No', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'Discover', '100.00', '0.5', 'In-Store'
+),('198765432890', 'Sophia', 'R', 'Ohio', '7778889999', '789 Walnut St', '172.16.0.2', 'Columbus', '5554443333', 'Yes', 'Yes', 'Online Shopper', 'Frequent', 'High', 'Mastercard', '450.25', '1.5', 'Online'
+),('956321874523', 'David', 'S', 'Michigan', '1112223333', '654 Birch St', '192.168.1.1', 'Detroit', '5556667777', 'Yes', 'No', 'Hybrid Shopper', 'Frequent', 'Medium', 'Amex', '800.00', '2.5', 'Online'
+),('127546983215', 'Akhil', 'I', 'Delaware', '1234567890', '123 Main St', '192.168.0.1', 'Wilmington', '9876543210', 'Yes', 'Yes', 'Online Shopper', 'Frequent', 'High', 'Visa', '500.75', '1.5', 'Online'),
+('237846543271', 'Bob', 'J', 'California', '9876543210', '456 Maple Ave', '10.0.0.1', 'Los Angeles', '1234567890', 'No', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'Mastercard', '100.00', '1.0', 'In-Store'),
+('382947123456', 'Cathy', 'R', 'New York', '5555555555', '789 Broadway', '172.16.0.1', 'New York City', '1111111111', 'Yes', 'No', 'Online Shopper', 'Regular', 'Medium', 'American Express', '250.00', '1.25', 'Online'),
+('492156789012', 'David', 'K', 'Texas', '2222222222', '321 Oak St', '10.10.0.1', 'Houston', '8888888888', 'No', 'Yes', 'In-Store Shopper', 'Frequent', 'High', 'Discover', '750.50', '2.0', 'In-Store'),
+('582374659832', 'Emily', 'L', 'Arizona', '3333333333', '654 Pine Ave', '192.168.1.1', 'Phoenix', '4444444444', 'Yes', 'No', 'Online Shopper', 'Infrequent', 'Low', 'Visa', '50.00', '1.0', 'Online'),
+('673485736459', 'Frank', 'S', 'Florida', '7777777777', '987 Coral Rd', '192.168.2.1', 'Miami', '5555555555', 'Yes', 'Yes', 'In-Store Shopper', 'Regular', 'Medium', 'Mastercard', '350.00', '1.75', 'In-Store'),
+('746583029841', 'Gina', 'T', 'Washington', '4444444444', '246 Elm St', '10.20.0.1', 'Seattle', '3333333333', 'No', 'No', 'Online Shopper', 'Frequent', 'High', 'American Express', '900.00', '2.5', 'Online'),
+('823749017530', 'Harry', 'U', 'Georgia', '6666666666', '135 Peachtree Rd', '192.168.3.1', 'Atlanta', '2222222222', 'Yes', 'Yes', 'In-Store Shopper', 'Infrequent', 'Low', 'Discover', '125.50', '1.25', 'In-Store'),
+('973489206135', 'Isabel', 'V', 'Oregon', '8888888888', '753 Oak Ave', '10.30.0.1', 'Portland', '6666666666', 'No', 'No', 'Online Shopper', 'Regular', 'Medium', 'Visa', '800.00', '3.0', 'Online'),('765432198076', 'Kevin', 'M', 'California', '5555555555', '789 Elm St', '10.0.0.1', 'Los Angeles', '1111111111', 'No', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'American Express', '50.00', '1.0', 'In-Store'),
+('654321987065', 'Jessica', 'K', 'New York', '4444444444', '321 Maple Ave', '192.168.0.1', 'New York City', '8888888888', 'Yes', 'No', 'Online Shopper', 'Regular', 'Medium', 'Visa', '350.00', '1.5', 'Online'),
+('543219876054', 'Mike', 'D', 'Florida', '2222222222', '654 Pine St', '10.10.0.1', 'Miami', '4444444444', 'No', 'Yes', 'In-Store Shopper', 'Frequent', 'High', 'Discover', '1250.75', '3.0', 'In-Store'),
+('432198765043', 'Stephanie', 'N', 'Washington', '7777777777', '987 Oak Rd', '172.16.0.1', 'Seattle', '5555555555', 'Yes', 'Yes', 'Online Shopper', 'Regular', 'High', 'Mastercard', '600.00', '2.5', 'Online'),
+('321987654032', 'John', 'P', 'Arizona', '3333333333', '246 Peachtree Rd', '192.168.2.1', 'Phoenix', '6666666666', 'Yes', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'American Express', '25.00', '1.0', 'In-Store'),
+('210987643021', 'Samantha', 'S', 'Georgia', '8888888888', '753 Maple Ave', '10.20.0.1', 'Atlanta', '3333333333', 'No', 'No', 'Online Shopper', 'Frequent', 'Medium', 'Visa', '400.00', '1.75', 'Online'),
+('109876543010', 'Patrick', 'R', 'Oregon', '6666666666', '135 Peachtree Rd', '192.168.3.1', 'Portland', '2222222222', 'Yes', 'Yes', 'In-Store Shopper', 'Regular', 'High', 'Discover', '850.00', '3.0', 'In-Store'),
+('209384758297', 'Maggie', 'L', 'Delaware', '1234567890', '456 Main St', '10.30.0.1', 'Wilmington', '9876543210', 'Yes', 'No', 'Online Shopper', 'Infrequent', 'Low', 'Mastercard', '200.00', '1.25', 'Online'),('938475823490', 'David', 'S', 'Texas', '4444444444', '5678 Oak St', '192.168.0.1', 'Houston', '8888888888', 'Yes', 'No', 'Online Shopper', 'Regular', 'Medium', 'Visa', '350.00', '1.5', 'Online'),
+('847582349085', 'Ashley', 'G', 'California', '2222222222', '9012 Pine St', '10.10.0.1', 'San Francisco', '4444444444', 'No', 'Yes', 'In-Store Shopper', 'Frequent', 'High', 'Discover', '1250.75', '3.0', 'In-Store'),
+('475823490857', 'Eric', 'R', 'Florida', '7777777777', '3456 Maple Ave', '172.16.0.1', 'Miami', '5555555555', 'Yes', 'Yes', 'Online Shopper', 'Regular', 'High', 'Mastercard', '600.00', '2.5', 'Online'),
+('582349085736', 'Jessica', 'P', 'Washington', '3333333333', '7890 Peachtree Rd', '192.168.2.1', 'Seattle', '6666666666', 'Yes', 'No', 'In-Store Shopper', 'Infrequent', 'Low', 'American Express', '25.00', '1.0', 'In-Store'),
+('823490857354', 'Michael', 'D', 'Arizona', '8888888888', '1234 Oak Rd', '10.20.0.1', 'Phoenix', '3333333333', 'No', 'No', 'Online Shopper', 'Frequent', 'Medium', 'Visa', '400.00', '1.75', 'Online'),
+('234908573423', 'Lauren', 'K', 'Georgia', '6666666666', '5678 Maple Ave', '192.168.3.1', 'Atlanta', '2222222222', 'Yes', 'Yes', 'In-Store Shopper', 'Regular', 'High', 'Discover', '850.00', '3.0', 'In-Store'),
+('490857342372', 'Matthew', 'J', 'Oregon', '1234567890', '9012 Main St', '10.30.0.1', 'Portland', '9876543210', 'Yes', 'No', 'Online Shopper', 'Infrequent', 'Low', 'Mastercard', '200.00', '1.25', 'Online')]
+
+# Create a new ORC file and write the data to it
+with open('sampleee.orc', 'wb') as datafile:
+    writer = pyorc.Writer(datafile, schema)
+    for row in data:
+        writer.write(row)
+    writer.close()
