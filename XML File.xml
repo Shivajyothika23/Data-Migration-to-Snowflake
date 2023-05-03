@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <columns>
+    <Patient_ID index="1"> Patient_ID </Patient_ID>
+    <First_Name_ index="2"> First_Name </First_Name_>
+    <Last_Name_ index="3"> Last_Name </Last_Name_>
+    <Gender index="4"> Gender </Gender>
+    <Age index="5"> Age </Age>
+    <Blood_Type_ index="6"> Blood_Type </Blood_Type_>
+    <Heightcm_ index="7"> Height(cm) </Heightcm_>
+    <Weightkg_ index="8"> Weight(kg) </Weightkg_>
+    <BMI index="9"> BMI </BMI>
+    <Pulse_bpm index="10"> Pulse(bpm) </Pulse_bpm>
+    <BP_mmHg index="11"> BP (mmHg) </BP_mmHg>
+    <Symptoms1 index="12"> Symptoms1 </Symptoms1>
+    <Symptoms2 index="13"> Symptoms2 </Symptoms2>
+    <Symptoms3 index="14"> Symptoms3 </Symptoms3>
+    <Diagnosis index="15"> Diagnosis </Diagnosis>
+    <Medication1 index="16"> Medication1 </Medication1>
+    <Medication2 index="17"> Medication2 </Medication2>
+    <Family_History index="18"> Family_History </Family_History>
+    <Surgery_History index="19"> Surgery_History </Surgery_History>
+    <Vaccination_History index="20"> Vaccination_History </Vaccination_History>
+    <Health_Insurance index="21"> Health_Insurance </Health_Insurance>
+    <Occupation_ index="22"> Occupation </Occupation_>
+    <Income index="23"> Income </Income>
+    <Marital__Status_ index="24"> Marital_ Status </Marital__Status_>
+    <City index="25"> City </City>
+    <State index="26"> State </State>
+    <Emergency_Contact_ index="27"> Emergency_Contact </Emergency_Contact_>
+     
+  </columns>
+  <records>
+    <record index="1">
+      <Age>52</Age>
+      <BMI>25.3</BMI>
+      <BP_mmHg>128/74</BP_mmHg>
+      <Blood_Type_>A+</Blood_Type_>
+      <City>Birmingham</City>
+      <Diagnosis>Influenza</Diagnosis>
+      <Emergency_Contact_>8713456789</Emergency_Contact_>
+      <Family_History>Type 2 diabetes</Family_History>
+      <First_Name_>John</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Aetna Health Insurance</Health_Insurance>
+      <Heightcm_>175</Heightcm_>
+      <Income>$38,480.00</Income>
+      <Last_Name_>Doe</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1> fluids</Medication1>
+      <Medication2>antiviral medications</Medication2>
+      <Occupation_>Accountant</Occupation_>
+      <Patient_ID>1</Patient_ID>
+      <Pulse_bpm>86 bpm</Pulse_bpm>
+      <State>Alabama</State>
+      <Surgery_History>Appendectomy</Surgery_History>
+      <Symptoms1>Fatigue</Symptoms1>
+      <Symptoms2>Loss of appetite</Symptoms2>
+      <Symptoms3>Memory problems</Symptoms3>
+      <Vaccination_History>MMR</Vaccination_History>
+      <Weightkg_>72.5</Weightkg_>
+    </record>
+    <record index="2">
+      <Age>45</Age>
+      <BMI>31.1</BMI>
+      <BP_mmHg>142/81</BP_mmHg>
+      <Blood_Type_>A-</Blood_Type_>
+      <City>Anchorage</City>
+      <Diagnosis>Pneumonia</Diagnosis>
+      <Emergency_Contact_>2109876543</Emergency_Contact_>
+      <Family_History>Hypertension</Family_History>
+      <First_Name_>Jane </First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Blue Cross Blue Shield</Health_Insurance>
+      <Heightcm_>163</Heightcm_>
+      <Income>$54,920.00</Income>
+      <Last_Name_>Smith</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>Antibiotics</Medication1>
+      <Medication2>oxygen therapy</Medication2>
+      <Occupation_>Nurse</Occupation_>
+      <Patient_ID>2</Patient_ID>
+      <Pulse_bpm>78 bpm</Pulse_bpm>
+      <State>Arkansas</State>
+      <Surgery_History>Cataract surgery</Surgery_History>
+      <Symptoms1>Shortness of breath</Symptoms1>
+      <Symptoms2>Excessive thirst</Symptoms2>
+      <Symptoms3>Confusion</Symptoms3>
+      <Vaccination_History>Hepatitis B</Vaccination_History>
+      <Weightkg_>68.2</Weightkg_>
+    </record>
+    <record index="3">
+      <Age>42</Age>
+      <BMI>23.8</BMI>
+      <BP_mmHg>124/72</BP_mmHg>
+      <Blood_Type_>B+</Blood_Type_>
+      <City>Phoenix</City>
+      <Diagnosis>Asthma</Diagnosis>
+      <Emergency_Contact_>6789012345</Emergency_Contact_>
+      <Family_History>Cardiovascular disease</Family_History>
+      <First_Name_>Sarah</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Cigna Health Insurance</Health_Insurance>
+      <Heightcm_>182</Heightcm_>
+      <Income>$72,840.00</Income>
+      <Last_Name_>Johnson</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1> Inhalers</Medication1>
+      <Medication2>corticosteroids</Medication2>
+      <Occupation_>Teacher</Occupation_>
+      <Patient_ID>3</Patient_ID>
+      <Pulse_bpm>72 bpm</Pulse_bpm>
+      <State>Arizona</State>
+      <Surgery_History>Tonsillectomy</Surgery_History>
+      <Symptoms1>Chest pain</Symptoms1>
+      <Symptoms2>Frequent urination</Symptoms2>
+      <Symptoms3>Anxiety</Symptoms3>
+      <Vaccination_History>Polio</Vaccination_History>
+      <Weightkg_>81.9</Weightkg_>
+    </record>
+    <record index="4">
+      <Age>55</Age>
+      <BMI>28.9</BMI>
+      <BP_mmHg>135/79</BP_mmHg>
+      <Blood_Type_>B-</Blood_Type_>
+      <City>Little Rock</City>
+      <Diagnosis>Chronic obstructive pulmonary disease (COPD)</Diagnosis>
+      <Emergency_Contact_>6823207845</Emergency_Contact_>
+      <Family_History>Breast cancer</Family_History>
+      <First_Name_>Michael </First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>UnitedHealth Group</Health_Insurance>
+      <Heightcm_>158</Heightcm_>
+      <Income>$96,580.00</Income>
+      <Last_Name_>Brown</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>pulmonary rehabilitation</Medication1>
+      <Medication2>Bronchodilators</Medication2>
+      <Occupation_>Engineer</Occupation_>
+      <Patient_ID>4</Patient_ID>
+      <Pulse_bpm>91 bpm</Pulse_bpm>
+      <State>Arkansas</State>
+      <Surgery_History>Hysterectomy</Surgery_History>
+      <Symptoms1>Headache</Symptoms1>
+      <Symptoms2>Painful urination</Symptoms2>
+      <Symptoms3>Depression</Symptoms3>
+      <Vaccination_History>Influenza</Vaccination_History>
+      <Weightkg_>63.7</Weightkg_>
+    </record>
+    <record index="5">
+      <Age>38</Age>
+      <BMI>21.7</BMI>
+      <BP_mmHg>118/69</BP_mmHg>
+      <Blood_Type_>AB+</Blood_Type_>
+      <City>Los Angeles</City>
+      <Diagnosis>Bronchitis</Diagnosis>
+      <Emergency_Contact_>9876543210</Emergency_Contact_>
+      <Family_History>Colon cancer</Family_History>
+      <First_Name_>Emily</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Humana Health Insurance</Health_Insurance>
+      <Heightcm_>171</Heightcm_>
+      <Income>$64,270.00</Income>
+      <Last_Name_>Wilson</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>fluids</Medication1>
+      <Medication2>antibiotics</Medication2>
+      <Occupation_>Attorney</Occupation_>
+      <Patient_ID>5</Patient_ID>
+      <Pulse_bpm>84 bpm</Pulse_bpm>
+      <State>California</State>
+      <Surgery_History>Knee replacement surgery</Surgery_History>
+      <Symptoms1>Nausea</Symptoms1>
+      <Symptoms2>Blurred vision</Symptoms2>
+      <Symptoms3>Irritability</Symptoms3>
+      <Vaccination_History>Varicella</Vaccination_History>
+      <Weightkg_>77.4</Weightkg_>
+    </record>
+    <record index="6">
+      <Age>68</Age>
+      <BMI>26.4</BMI>
+      <BP_mmHg>146/84</BP_mmHg>
+      <Blood_Type_>AB-</Blood_Type_>
+      <City>Denver</City>
+      <Diagnosis>Urinary tract infection (UTI)</Diagnosis>
+      <Emergency_Contact_>7654321098</Emergency_Contact_>
+      <Family_History>Prostate cancer</Family_History>
+      <First_Name_>David</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Kaiser Permanente</Health_Insurance>
+      <Heightcm_>185</Heightcm_>
+      <Income>$83,720.00</Income>
+      <Last_Name_>Lee</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Antibiotics</Medication1>
+      <Medication2>fluids</Medication2>
+      <Occupation_>Chef</Occupation_>
+      <Patient_ID>6</Patient_ID>
+      <Pulse_bpm>69 bpm</Pulse_bpm>
+      <State>Colarado</State>
+      <Surgery_History>Gallbladder removal</Surgery_History>
+      <Symptoms1>Vomiting</Symptoms1>
+      <Symptoms2>Double vision</Symptoms2>
+      <Symptoms3>Mood swings</Symptoms3>
+      <Vaccination_History>Pneumococcal</Vaccination_History>
+      <Weightkg_>69.8</Weightkg_>
+    </record>
+    <record index="7">
+      <Age>47</Age>
+      <BMI>32.6</BMI>
+      <BP_mmHg>121/70</BP_mmHg>
+      <Blood_Type_>O+</Blood_Type_>
+      <City>Hartford</City>
+      <Diagnosis>Kidney infection</Diagnosis>
+      <Emergency_Contact_>5432109876</Emergency_Contact_>
+      <Family_History>Lung cancer</Family_History>
+      <First_Name_>Susan </First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Molina Healthcare</Health_Insurance>
+      <Heightcm_>167</Heightcm_>
+      <Income>$41,510.00</Income>
+      <Last_Name_>Gerald</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>pain relief medication</Medication1>
+      <Medication2>antibiotics</Medication2>
+      <Occupation_>Salesperson</Occupation_>
+      <Patient_ID>7</Patient_ID>
+      <Pulse_bpm>79 bpm</Pulse_bpm>
+      <State>Connecticut</State>
+      <Surgery_History>Wisdom teeth removal</Surgery_History>
+      <Symptoms1>Diarrhea</Symptoms1>
+      <Symptoms2>Sensitivity to light</Symptoms2>
+      <Symptoms3>Hallucinations</Symptoms3>
+      <Vaccination_History>HPV</Vaccination_History>
+      <Weightkg_>75.1</Weightkg_>
+    </record>
+    <record index="8">
+      <Age>62</Age>
+      <BMI>24.9</BMI>
+      <BP_mmHg>132/76</BP_mmHg>
+      <Blood_Type_>O-</Blood_Type_>
+      <City>Wilmington</City>
+      <Diagnosis>Migraine headache</Diagnosis>
+      <Emergency_Contact_>8765432109</Emergency_Contact_>
+      <Family_History>Alzheimer's disease</Family_History>
+      <First_Name_>Maria</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Medicaid</Health_Insurance>
+      <Heightcm_>173</Heightcm_>
+      <Income>$47,310.00</Income>
+      <Last_Name_>Garcia</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>rest</Medication1>
+      <Medication2>Ibuprofen</Medication2>
+      <Occupation_>Artist</Occupation_>
+      <Patient_ID>8</Patient_ID>
+      <Pulse_bpm>96 bpm</Pulse_bpm>
+      <State>Delaware</State>
+      <Surgery_History>Hernia repair</Surgery_History>
+      <Symptoms1>Constipation</Symptoms1>
+      <Symptoms2>Hearing loss</Symptoms2>
+      <Symptoms3>Delusions</Symptoms3>
+      <Vaccination_History>Meningococcal</Vaccination_History>
+      <Weightkg_>80.3</Weightkg_>
+    </record>
+    <record index="9">
+      <Age>58</Age>
+      <BMI>29.5</BMI>
+      <BP_mmHg>129/75</BP_mmHg>
+      <Blood_Type_>A+</Blood_Type_>
+      <City>Miami</City>
+      <Diagnosis>Cluster headache</Diagnosis>
+      <Emergency_Contact_>2345678901</Emergency_Contact_>
+      <Family_History>Parkinson's disease</Family_History>
+      <First_Name_>Olivia</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Medicare</Health_Insurance>
+      <Heightcm_>168</Heightcm_>
+      <Income>$56,860.00</Income>
+      <Last_Name_>Davis</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Oxygen therapy</Medication1>
+      <Medication2>pain relief medication</Medication2>
+      <Occupation_>Musician</Occupation_>
+      <Patient_ID>9</Patient_ID>
+      <Pulse_bpm>66 bpm</Pulse_bpm>
+      <State>Florida</State>
+      <Surgery_History>Prostatectomy</Surgery_History>
+      <Symptoms1>Abdominal pain</Symptoms1>
+      <Symptoms2>Ringing in the ears</Symptoms2>
+      <Symptoms3>Paranoia</Symptoms3>
+      <Vaccination_History>Shingles</Vaccination_History>
+      <Weightkg_>62.9</Weightkg_>
+    </record>
+    <record index="10">
+      <Age>55</Age>
+      <BMI>20.3</BMI>
+      <BP_mmHg>136/78</BP_mmHg>
+      <Blood_Type_>A-</Blood_Type_>
+      <City>Atlanta</City>
+      <Diagnosis>Tension headache</Diagnosis>
+      <Emergency_Contact_>8901234567</Emergency_Contact_>
+      <Family_History>Multiple sclerosis</Family_History>
+      <First_Name_>Jack</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>AARP</Health_Insurance>
+      <Heightcm_>177</Heightcm_>
+      <Income>$88,090.00</Income>
+      <Last_Name_>Williams</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>rest</Medication1>
+      <Medication2>pain relief medication</Medication2>
+      <Occupation_>Scientist</Occupation_>
+      <Patient_ID>10</Patient_ID>
+      <Pulse_bpm>88 bpm</Pulse_bpm>
+      <State>Georgia</State>
+      <Surgery_History>Breast augmentation</Surgery_History>
+      <Symptoms1>Back pain</Symptoms1>
+      <Symptoms2>Speech difficulties</Symptoms2>
+      <Symptoms3>Agitation</Symptoms3>
+      <Vaccination_History>Tetanus</Vaccination_History>
+      <Weightkg_>79.2</Weightkg_>
+    </record>
+    <record index="11">
+      <Age>57</Age>
+      <BMI>27.6</BMI>
+      <BP_mmHg>143/82</BP_mmHg>
+      <Blood_Type_>B+</Blood_Type_>
+      <City>Honolulu</City>
+      <Diagnosis>Gastroesophageal reflux disease (GERD)</Diagnosis>
+      <Emergency_Contact_>4567890123</Emergency_Contact_>
+      <Family_History>Sickle cell anemia</Family_History>
+      <First_Name_>Sophia</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>American Family Insurance</Health_Insurance>
+      <Heightcm_>166</Heightcm_>
+      <Income>$60,610.00</Income>
+      <Last_Name_>Wilson</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Antacids</Medication1>
+      <Medication2> lifestyle changes</Medication2>
+      <Occupation_>Journalist</Occupation_>
+      <Patient_ID>11</Patient_ID>
+      <Pulse_bpm>75 bpm</Pulse_bpm>
+      <State>New Hampshire</State>
+      <Surgery_History>Spinal fusion surgery</Surgery_History>
+      <Symptoms1>Joint pain</Symptoms1>
+      <Symptoms2>Difficulty swallowing</Symptoms2>
+      <Symptoms3>Restlessness</Symptoms3>
+      <Vaccination_History>Diphtheria</Vaccination_History>
+      <Weightkg_>73.6</Weightkg_>
+    </record>
+    <record index="12">
+      <Age>72</Age>
+      <BMI>30.8</BMI>
+      <BP_mmHg>131/76</BP_mmHg>
+      <Blood_Type_>B-</Blood_Type_>
+      <City>Boise</City>
+      <Diagnosis>Peptic ulcer disease</Diagnosis>
+      <Emergency_Contact_>3210987654</Emergency_Contact_>
+      <Family_History>Thalassemia</Family_History>
+      <First_Name_>Benjamin </First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Assurant Health</Health_Insurance>
+      <Heightcm_>179</Heightcm_>
+      <Income>$92,530.00</Income>
+      <Last_Name_>Clark</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1> Antibiotics</Medication1>
+      <Medication2>proton pump inhibitors </Medication2>
+      <Occupation_>Graphic designer</Occupation_>
+      <Patient_ID>12</Patient_ID>
+      <Pulse_bpm>62 bpm</Pulse_bpm>
+      <State>Idaho</State>
+      <Surgery_History>Hip replacement surgery</Surgery_History>
+      <Symptoms1>Muscle pain</Symptoms1>
+      <Symptoms2>Toothache</Symptoms2>
+      <Symptoms3>Insomnia</Symptoms3>
+      <Vaccination_History>Pertussis</Vaccination_History>
+      <Weightkg_>67.3</Weightkg_>
+    </record>
+    <record index="13">
+      <Age>63</Age>
+      <BMI>22.5</BMI>
+      <BP_mmHg>124/72</BP_mmHg>
+      <Blood_Type_>AB+</Blood_Type_>
+      <City>Chicago</City>
+      <Diagnosis>Irritable bowel syndrome (IBS)</Diagnosis>
+      <Emergency_Contact_>6543210987</Emergency_Contact_>
+      <Family_History>Celiac disease</Family_History>
+      <First_Name_>Samuel</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Celtic Insurance Company</Health_Insurance>
+      <Heightcm_>162</Heightcm_>
+      <Income>$79,680.00</Income>
+      <Last_Name_>Write</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>fiber supplements </Medication1>
+      <Medication2>antispasmodics</Medication2>
+      <Occupation_>Customer service representative</Occupation_>
+      <Patient_ID>13</Patient_ID>
+      <Pulse_bpm>83 bpm</Pulse_bpm>
+      <State>Illinois</State>
+      <Surgery_History>LASIK eye surgery</Surgery_History>
+      <Symptoms1>Dizziness</Symptoms1>
+      <Symptoms2>Gum pain</Symptoms2>
+      <Symptoms3>Hypersomnia</Symptoms3>
+      <Vaccination_History>Rotavirus</Vaccination_History>
+      <Weightkg_>71.8</Weightkg_>
+    </record>
+    <record index="14">
+      <Age>45</Age>
+      <BMI>25.7</BMI>
+      <BP_mmHg>138/80</BP_mmHg>
+      <Blood_Type_>AB-</Blood_Type_>
+      <City>Indianapolis</City>
+      <Diagnosis>Diverticulitis</Diagnosis>
+      <Emergency_Contact_>9870123456</Emergency_Contact_>
+      <Family_History>Crohn's disease</Family_History>
+      <First_Name_>Noah</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Coventry Health Care</Health_Insurance>
+      <Heightcm_>174</Heightcm_>
+      <Income>$71,930.00</Income>
+      <Last_Name_>Green</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>antibiotics</Medication1>
+      <Medication2>clear liquid diet</Medication2>
+      <Occupation_>Social worker</Occupation_>
+      <Patient_ID>14</Patient_ID>
+      <Pulse_bpm>97 bpm</Pulse_bpm>
+      <State>Indiana</State>
+      <Surgery_History>Colonoscopy</Surgery_History>
+      <Symptoms1>Fainting</Symptoms1>
+      <Symptoms2>Jaw pain</Symptoms2>
+      <Symptoms3>Nightmares</Symptoms3>
+      <Vaccination_History>Hepatitis A</Vaccination_History>
+      <Weightkg_>76.5</Weightkg_>
+    </record>
+    <record index="15">
+      <Age>42</Age>
+      <BMI>28.2</BMI>
+      <BP_mmHg>127/74</BP_mmHg>
+      <Blood_Type_>O+</Blood_Type_>
+      <City>Des Moines</City>
+      <Diagnosis>Rheumatoid arthritis (RA)</Diagnosis>
+      <Emergency_Contact_>8907654321</Emergency_Contact_>
+      <Family_History>Ulcerative colitis</Family_History>
+      <First_Name_>Isabella</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Fallon Health</Health_Insurance>
+      <Heightcm_>176</Heightcm_>
+      <Income>$53,340.00</Income>
+      <Last_Name_>Harris</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>corticosteroids</Medication1>
+      <Medication2>Ibuprofen</Medication2>
+      <Occupation_>Entrepreneur</Occupation_>
+      <Patient_ID>15</Patient_ID>
+      <Pulse_bpm>71 bpm</Pulse_bpm>
+      <State>Idaho</State>
+      <Surgery_History>Carpal tunnel surgery</Surgery_History>
+      <Symptoms1>Numbness or tingling</Symptoms1>
+      <Symptoms2>Neck pain</Symptoms2>
+      <Symptoms3>Sleepwalking</Symptoms3>
+      <Vaccination_History>Yellow fever</Vaccination_History>
+      <Weightkg_>65.4</Weightkg_>
+    </record>
+    <record index="16">
+      <Age>65</Age>
+      <BMI>33.7</BMI>
+      <BP_mmHg>141/81</BP_mmHg>
+      <Blood_Type_>O-</Blood_Type_>
+      <City>Wichita</City>
+      <Diagnosis>Osteoarthritis (OA)</Diagnosis>
+      <Emergency_Contact_>3456789012</Emergency_Contact_>
+      <Family_History>Asthma</Family_History>
+      <First_Name_>Elijah</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Geisinger Health Plan</Health_Insurance>
+      <Heightcm_>180</Heightcm_>
+      <Income>$65,890.00</Income>
+      <Last_Name_>Wanderson</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>physical therapy</Medication1>
+      <Medication2>Pain relief medication </Medication2>
+      <Occupation_>Police officer</Occupation_>
+      <Patient_ID>16</Patient_ID>
+      <Pulse_bpm>89 bpm</Pulse_bpm>
+      <State>Kansas</State>
+      <Surgery_History>Rhinoplasty</Surgery_History>
+      <Symptoms1>Swelling</Symptoms1>
+      <Symptoms2>Shoulder pain</Symptoms2>
+      <Symptoms3>Tremors</Symptoms3>
+      <Vaccination_History>Typhoid</Vaccination_History>
+      <Weightkg_>82.1</Weightkg_>
+    </record>
+    <record index="17">
+      <Age>59</Age>
+      <BMI>21.8</BMI>
+      <BP_mmHg>130/75</BP_mmHg>
+      <Blood_Type_>A+</Blood_Type_>
+      <City>Louisville</City>
+      <Diagnosis>Fibromyalgia</Diagnosis>
+      <Emergency_Contact_>2103456789</Emergency_Contact_>
+      <Family_History>Eczema</Family_History>
+      <First_Name_>Taylor</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Harvard Pilgrim Health Care</Health_Insurance>
+      <Heightcm_>165</Heightcm_>
+      <Income>$42,980.00</Income>
+      <Last_Name_>Smith</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>Antidepressants</Medication1>
+      <Medication2>pain relief medication</Medication2>
+      <Occupation_>Firefighter</Occupation_>
+      <Patient_ID>17</Patient_ID>
+      <Pulse_bpm>92 bpm</Pulse_bpm>
+      <State>Texas</State>
+      <Surgery_History>Mastectomy</Surgery_History>
+      <Symptoms1>Rash</Symptoms1>
+      <Symptoms2>Arm pain</Symptoms2>
+      <Symptoms3>Seizures</Symptoms3>
+      <Vaccination_History>Rabies</Vaccination_History>
+      <Weightkg_>74.9</Weightkg_>
+    </record>
+    <record index="18">
+      <Age>44</Age>
+      <BMI>27.1</BMI>
+      <BP_mmHg>137/79</BP_mmHg>
+      <Blood_Type_>A-</Blood_Type_>
+      <City>New Orleans</City>
+      <Diagnosis>Chronic fatigue syndrome (CFS)</Diagnosis>
+      <Emergency_Contact_>8902345678</Emergency_Contact_>
+      <Family_History>Psoriasis</Family_History>
+      <First_Name_>Emily</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Health Net</Health_Insurance>
+      <Heightcm_>169</Heightcm_>
+      <Income>$87,760.00</Income>
+      <Last_Name_>Scott</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>cognitive behavioral therapy</Medication1>
+      <Medication2>rest</Medication2>
+      <Occupation_>Construction worker</Occupation_>
+      <Patient_ID>18</Patient_ID>
+      <Pulse_bpm>65 bpm</Pulse_bpm>
+      <State>Lousiana</State>
+      <Surgery_History>Rotator cuff surgery</Surgery_History>
+      <Symptoms1>Itching</Symptoms1>
+      <Symptoms2>Hand pain</Symptoms2>
+      <Symptoms3>Muscle weakness</Symptoms3>
+      <Vaccination_History>Cholera</Vaccination_History>
+      <Weightkg_>78.7</Weightkg_>
+    </record>
+    <record index="19">
+      <Age>64</Age>
+      <BMI>24.5</BMI>
+      <BP_mmHg>125/72</BP_mmHg>
+      <Blood_Type_>B+</Blood_Type_>
+      <City>Annapolis</City>
+      <Diagnosis>Hypothyroidism</Diagnosis>
+      <Emergency_Contact_>5678901234</Emergency_Contact_>
+      <Family_History>Rheumatoid arthritis</Family_History>
+      <First_Name_>Gabriel</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>HealthPartners</Health_Insurance>
+      <Heightcm_>172</Heightcm_>
+      <Income>$49,580.00</Income>
+      <Last_Name_>Nelson</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>Thyroid hormone replacement</Medication1>
+      <Medication2>rest</Medication2>
+      <Occupation_>Real estate agent</Occupation_>
+      <Patient_ID>19</Patient_ID>
+      <Pulse_bpm>80 bpm</Pulse_bpm>
+      <State>Maryland</State>
+      <Surgery_History>Vasectomy</Surgery_History>
+      <Symptoms1>Redness</Symptoms1>
+      <Symptoms2>Hip pain</Symptoms2>
+      <Symptoms3>Difficulty walking</Symptoms3>
+      <Vaccination_History>Japanese Encephalitis</Vaccination_History>
+      <Weightkg_>69.1</Weightkg_>
+    </record>
+    <record index="20">
+      <Age>53</Age>
+      <BMI>29.3</BMI>
+      <BP_mmHg>134/77</BP_mmHg>
+      <Blood_Type_>B-</Blood_Type_>
+      <City>Baltimore</City>
+      <Diagnosis>Hyperthyroidism</Diagnosis>
+      <Emergency_Contact_>4321098765</Emergency_Contact_>
+      <Family_History>Osteoarthritis</Family_History>
+      <First_Name_>Grace</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Highmark Health</Health_Insurance>
+      <Heightcm_>187</Heightcm_>
+      <Income>$69,240.00</Income>
+      <Last_Name_>Turner</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Antithyroid medication</Medication1>
+      <Medication2>beta blockers</Medication2>
+      <Occupation_>Financial analyst</Occupation_>
+      <Patient_ID>20</Patient_ID>
+      <Pulse_bpm>73 bpm</Pulse_bpm>
+      <State>Maryland</State>
+      <Surgery_History>Tubal ligation</Surgery_History>
+      <Symptoms1>Bruising</Symptoms1>
+      <Symptoms2>Leg pain</Symptoms2>
+      <Symptoms3>Loss of balance</Symptoms3>
+      <Vaccination_History>Malaria</Vaccination_History>
+      <Weightkg_>76.8</Weightkg_>
+    </record>
+    <record index="21">
+      <Age>55</Age>
+      <BMI>22.6</BMI>
+      <BP_mmHg>139/80</BP_mmHg>
+      <Blood_Type_>AB+</Blood_Type_>
+      <City>Boston</City>
+      <Diagnosis>Diabetes mellitus (DM)</Diagnosis>
+      <Emergency_Contact_>6789012341</Emergency_Contact_>
+      <Family_History>Osteoporosis</Family_History>
+      <First_Name_>Amelia</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Independence Blue Cross</Health_Insurance>
+      <Heightcm_>158</Heightcm_>
+      <Income>$78,210.00</Income>
+      <Last_Name_>White</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Insulin</Medication1>
+      <Medication2>Metformin</Medication2>
+      <Occupation_>Human resources manager</Occupation_>
+      <Patient_ID>21</Patient_ID>
+      <Pulse_bpm>98 bpm</Pulse_bpm>
+      <State>Masachusetts</State>
+      <Surgery_History>Bypass surgery</Surgery_History>
+      <Symptoms1>Bleeding</Symptoms1>
+      <Symptoms2>Foot pain</Symptoms2>
+      <Symptoms3>Sensitivity to touch</Symptoms3>
+      <Vaccination_History>Measles</Vaccination_History>
+      <Weightkg_>61.5</Weightkg_>
+    </record>
+    <record index="22">
+      <Age>69</Age>
+      <BMI>26.9</BMI>
+      <BP_mmHg>123/71</BP_mmHg>
+      <Blood_Type_>AB-</Blood_Type_>
+      <City>Detroit</City>
+      <Diagnosis>Hypertension</Diagnosis>
+      <Emergency_Contact_>1234908765</Emergency_Contact_>
+      <Family_History>Thyroid disease</Family_History>
+      <First_Name_>Caleb</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>MassHealth</Health_Insurance>
+      <Heightcm_>181</Heightcm_>
+      <Income>$61,970.00</Income>
+      <Last_Name_>Brown</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>ACE inhibitors</Medication1>
+      <Medication2>diuretics</Medication2>
+      <Occupation_>Marketing manager</Occupation_>
+      <Patient_ID>22</Patient_ID>
+      <Pulse_bpm>68 bpm</Pulse_bpm>
+      <State>Michigan</State>
+      <Surgery_History>Heart valve replacement</Surgery_History>
+      <Symptoms1>Cough</Symptoms1>
+      <Symptoms2>Dry skin</Symptoms2>
+      <Symptoms3>Sensitivity to sound</Symptoms3>
+      <Vaccination_History>Rubella</Vaccination_History>
+      <Weightkg_>70.2</Weightkg_>
+    </record>
+    <record index="23">
+      <Age>40</Age>
+      <BMI>31.4</BMI>
+      <BP_mmHg>131/75</BP_mmHg>
+      <Blood_Type_>O+</Blood_Type_>
+      <City>Minneapolis</City>
+      <Diagnosis>Coronary artery disease (CAD)</Diagnosis>
+      <Emergency_Contact_>8901234561</Emergency_Contact_>
+      <Family_History>Bipolar disorder</Family_History>
+      <First_Name_>Lucas</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Medica Health Plans</Health_Insurance>
+      <Heightcm_>170</Heightcm_>
+      <Income>$75,530.00</Income>
+      <Last_Name_>Phillips</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Statins</Medication1>
+      <Medication2>ACE inhibitors </Medication2>
+      <Occupation_>Information technology specialist</Occupation_>
+      <Patient_ID>23</Patient_ID>
+      <Pulse_bpm>81 bpm</Pulse_bpm>
+      <State>Minneapolis</State>
+      <Surgery_History>Lumpectomy</Surgery_History>
+      <Symptoms1>Sore throat</Symptoms1>
+      <Symptoms2>Oily skin</Symptoms2>
+      <Symptoms3>Sensitivity to smell</Symptoms3>
+      <Vaccination_History>Chickenpox</Vaccination_History>
+      <Weightkg_>83</Weightkg_>
+    </record>
+    <record index="24">
+      <Age>57</Age>
+      <BMI>20.7</BMI>
+      <BP_mmHg>140/81</BP_mmHg>
+      <Blood_Type_>O-</Blood_Type_>
+      <City>Jackson</City>
+      <Diagnosis>Myocardial infarction (MI)</Diagnosis>
+      <Emergency_Contact_>9012345678</Emergency_Contact_>
+      <Family_History>Schizophrenia</Family_History>
+      <First_Name_>Joey</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Moda Health</Health_Insurance>
+      <Heightcm_>184</Heightcm_>
+      <Income>$57,830.00</Income>
+      <Last_Name_>Tribianni</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>Oxygen therapy</Medication1>
+      <Medication2>aspirin</Medication2>
+      <Occupation_>Writer</Occupation_>
+      <Patient_ID>24</Patient_ID>
+      <Pulse_bpm>94 bpm</Pulse_bpm>
+      <State>Minnesota</State>
+      <Surgery_History>Tummy tuck</Surgery_History>
+      <Symptoms1>Runny or stuffy nose</Symptoms1>
+      <Symptoms2>Acne</Symptoms2>
+      <Symptoms3>Chest tightness</Symptoms3>
+      <Vaccination_History>Hepatitis C</Vaccination_History>
+      <Weightkg_>72.1</Weightkg_>
+    </record>
+    <record index="25">
+      <Age>46</Age>
+      <BMI>23.1</BMI>
+      <BP_mmHg>128/74</BP_mmHg>
+      <Blood_Type_>A+</Blood_Type_>
+      <City>Kansas city</City>
+      <Diagnosis>Congestive heart failure (CHF)</Diagnosis>
+      <Emergency_Contact_>2345678908</Emergency_Contact_>
+      <Family_History>Autism spectrum disorder</Family_History>
+      <First_Name_>Rachel</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Oscar Health Insurance</Health_Insurance>
+      <Heightcm_>178</Heightcm_>
+      <Income>$83,200.00</Income>
+      <Last_Name_>Green</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Diuretics</Medication1>
+      <Medication2>beta blockers</Medication2>
+      <Occupation_>Actor</Occupation_>
+      <Patient_ID>25</Patient_ID>
+      <Pulse_bpm>76 bpm</Pulse_bpm>
+      <State>Kansas</State>
+      <Surgery_History>Endoscopic sinus surgery</Surgery_History>
+      <Symptoms1>Sneezing</Symptoms1>
+      <Symptoms2>Hair loss</Symptoms2>
+      <Symptoms3>Rapid heartbeat</Symptoms3>
+      <Vaccination_History>Tuberculosis</Vaccination_History>
+      <Weightkg_>67.9</Weightkg_>
+    </record>
+    <record index="26">
+      <Age>52</Age>
+      <BMI>28.8</BMI>
+      <BP_mmHg>133/76</BP_mmHg>
+      <Blood_Type_>A-</Blood_Type_>
+      <City>Billings</City>
+      <Diagnosis>Anxiety disorder</Diagnosis>
+      <Emergency_Contact_>3456789019</Emergency_Contact_>
+      <Family_History>Down syndrome</Family_History>
+      <First_Name_>Phoebe</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Premera Blue Cross</Health_Insurance>
+      <Heightcm_>161</Heightcm_>
+      <Income>$46,720.00</Income>
+      <Last_Name_>Buffay</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Antidepressants</Medication1>
+      <Medication2>benzodiazepines</Medication2>
+      <Occupation_>Architect</Occupation_>
+      <Patient_ID>26</Patient_ID>
+      <Pulse_bpm>63 bpm</Pulse_bpm>
+      <State>Michigan</State>
+      <Surgery_History>ACL reconstruction surgery</Surgery_History>
+      <Symptoms1>Fever</Symptoms1>
+      <Symptoms2>Abnormal hair growth</Symptoms2>
+      <Symptoms3>Irregular heartbeat</Symptoms3>
+      <Vaccination_History>Human Papillomavirus (HPV)</Vaccination_History>
+      <Weightkg_>79.5</Weightkg_>
+    </record>
+    <record index="27">
+      <Age>49</Age>
+      <BMI>34.3</BMI>
+      <BP_mmHg>145/83</BP_mmHg>
+      <Blood_Type_>B+</Blood_Type_>
+      <City>Omaha</City>
+      <Diagnosis>Panic disorder</Diagnosis>
+      <Emergency_Contact_>8765432190</Emergency_Contact_>
+      <Family_History>Hemophilia</Family_History>
+      <First_Name_>Ross</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Priority Health</Health_Insurance>
+      <Heightcm_>176</Heightcm_>
+      <Income>$70,840.00</Income>
+      <Last_Name_>Geller</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Antidepressants</Medication1>
+      <Medication2>benzodiazepines</Medication2>
+      <Occupation_>Doctor</Occupation_>
+      <Patient_ID>27</Patient_ID>
+      <Pulse_bpm>87 bpm</Pulse_bpm>
+      <State>New York</State>
+      <Surgery_History>Pacemaker implantation</Surgery_History>
+      <Symptoms1>Chills</Symptoms1>
+      <Symptoms2>Skin discoloration</Symptoms2>
+      <Symptoms3>High blood pressure</Symptoms3>
+      <Vaccination_History>Human Immunodeficiency Virus (HIV)</Vaccination_History>
+      <Weightkg_>64.6</Weightkg_>
+    </record>
+    <record index="28">
+      <Age>50</Age>
+      <BMI>25.1</BMI>
+      <BP_mmHg>126/73</BP_mmHg>
+      <Blood_Type_>B-</Blood_Type_>
+      <City>Las Vegas</City>
+      <Diagnosis>Major depressive disorder (MDD)</Diagnosis>
+      <Emergency_Contact_>6543210980</Emergency_Contact_>
+      <Family_History>Muscular dystrophy</Family_History>
+      <First_Name_>Chandler</First_Name_>
+      <Gender>Male</Gender>
+      <Health_Insurance>Regence Blue Cross Blue Shield</Health_Insurance>
+      <Heightcm_>164</Heightcm_>
+      <Income>$62,930.00</Income>
+      <Last_Name_>Bing</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>serotonin reuptake inhibitors </Medication1>
+      <Medication2>Tricyclic antidepressants </Medication2>
+      <Occupation_>Physical therapist</Occupation_>
+      <Patient_ID>28</Patient_ID>
+      <Pulse_bpm>99 bpm</Pulse_bpm>
+      <State>California</State>
+      <Surgery_History>Endarterectomy</Surgery_History>
+      <Symptoms1>Night sweats</Symptoms1>
+      <Symptoms2>Nail problems</Symptoms2>
+      <Symptoms3>Low blood pressure</Symptoms3>
+      <Vaccination_History>Haemophilus influenzae type b (Hib)</Vaccination_History>
+      <Weightkg_>81.6</Weightkg_>
+    </record>
+    <record index="29">
+      <Age>44</Age>
+      <BMI>30.1</BMI>
+      <BP_mmHg>142/82</BP_mmHg>
+      <Blood_Type_>AB+</Blood_Type_>
+      <City>Manchester</City>
+      <Diagnosis>Bipolar disorder</Diagnosis>
+      <Emergency_Contact_>6754538576</Emergency_Contact_>
+      <Family_History>Huntington's disease</Family_History>
+      <First_Name_>Emma</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>Tricare</Health_Insurance>
+      <Heightcm_>186</Heightcm_>
+      <Income>$44,560.00</Income>
+      <Last_Name_>Watson</Last_Name_>
+      <Marital__Status_>Single</Marital__Status_>
+      <Medication1>Atypical antipsychotics</Medication1>
+      <Medication2>Anticonvulsants</Medication2>
+      <Occupation_>Veterinarian</Occupation_>
+      <Patient_ID>29</Patient_ID>
+      <Pulse_bpm>70 bpm</Pulse_bpm>
+      <State>New Hampshire</State>
+      <Surgery_History>Endoscopy</Surgery_History>
+      <Symptoms1>Weight loss</Symptoms1>
+      <Symptoms2>Joint stiffness</Symptoms2>
+      <Symptoms3>Swollen lymph nodes</Symptoms3>
+      <Vaccination_History>Anthrax</Vaccination_History>
+      <Weightkg_>73.8</Weightkg_>
+    </record>
+    <record index="30">
+      <Age>56</Age>
+      <BMI>27.8</BMI>
+      <BP_mmHg>120/69</BP_mmHg>
+      <Blood_Type_>AB-</Blood_Type_>
+      <City>Newark</City>
+      <Diagnosis>Schizophrenia</Diagnosis>
+      <Emergency_Contact_>8901234569</Emergency_Contact_>
+      <Family_History>Tourette syndrome</Family_History>
+      <First_Name_>Monica</First_Name_>
+      <Gender>Female</Gender>
+      <Health_Insurance>WellCare Health Plans</Health_Insurance>
+      <Heightcm_>170</Heightcm_>
+      <Income>$98,190.00</Income>
+      <Last_Name_>Pattinson</Last_Name_>
+      <Marital__Status_>Married</Marital__Status_>
+      <Medication1>Clozapine</Medication1>
+      <Medication2>Typical antipsychotics </Medication2>
+      <Occupation_>Electrician</Occupation_>
+      <Patient_ID>30</Patient_ID>
+      <Pulse_bpm>85 bpm</Pulse_bpm>
+      <State>New Jersey</State>
+      <Surgery_History>Thyroidectomy</Surgery_History>
+      <Symptoms1>Weight gain</Symptoms1>
+      <Symptoms2>Joint swelling</Symptoms2>
+      <Symptoms3>Skin rash with fever</Symptoms3>
+      <Vaccination_History>Smallpox</Vaccination_History>
+      <Weightkg_>77.3</Weightkg_>
+    </record>
+  </records>
+</data>
