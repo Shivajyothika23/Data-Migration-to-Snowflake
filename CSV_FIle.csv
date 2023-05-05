@@ -1,0 +1,62 @@
+Patient_ID,First_Name,Last_Name,DOB,Gender,Race,Residence,Marital_Status,Health_Status,Functional_Status,Admit_Time,Discharge_Time,Diagnosis_Code(s),Procedure_Code(s),Physician_Name,Nursing_Unit_ID,Operating_Physician,Room_No,Admit_Type_Code(s),Discharge_Status_Code(s),Length_of_Stay,Patient_Reason_to_Stay,Total_Charges,Insurance_Coverage,Payment_Mode
+,,,,,,,,,,,,,,,,,,,,,,,,
+1,John,Doe,3/3/1990,Male,Caucasian,New York,Single,Good,Good,9/1/2018,9/5/2018,A01.0,P01.0,Dr. Jones,NU001,Dr. Smith,R01,ADM001,DCH001,3,Fever,"$3,000 ",Blue Cross Blue Shield,Credit Card
+2,Jane,Smith,2/14/1991,Female,African American,Illinois,Married,Excellent,Excellent,9/2/2018,9/6/2018,A02.0,P02.0,Dr. Brown,NU002,Dr. Johnson,R02,ADM002,DCH002,4,Cold,"$6,000 ",United Healthcare,Cash
+3,Jacob,Williams,12/15/1992,Male,Asian,California,Single,Fair,Fair,9/3/2018,9/7/2018,A03.0,P03.0,Dr. Wilson,NU003,Dr. Thompson,R03,ADM003,DCH003,4,Headache,"$9,000 ",Humana,Check
+4,Emily,Jones,5/3/1993,Female,Hispanic,Texas,Married,Good,Good,9/4/2018,9/8/2018,A04.0,P04.0,Dr. Taylor,NU004,Dr. Anderson,R04,ADM004,DCH004,4,Stomachache,"$12,000 ",Aetna,Debit Card
+5,Michael,Brown,7/19/1994,Male,Native American,Oregon,Single,Excellent,Excellent,9/5/2018,9/9/2018,A05.0,P05.0,Dr. Jackson,NU005,Dr. Clark,R05,ADM005,DCH005,6,Back Pain,"$15,000 ",Kaiser Permanente,Credit Card
+6,Emily,Miller,10/4/1995,Female,Caucasian,New York,Single,Good,Good,9/6/2018,9/10/2018,A06.0,P06.0,Dr. Lewis,NU006,Dr. Walker,R06,ADM006,DCH006,7,Flu,"$18,000 ",Blue Cross Blue Shield,Cash
+7,Matthew,Davis,12/12/1996,Male,African American,Illinois,Married,Excellent,Excellent,9/7/2018,9/11/2018,A07.0,P07.0,Dr. White,NU007,Dr. Turner,R07,ADM007,DCH007,9,Allergies,"$21,000 ",United Healthcare,Check
+8,Hannah,Wilson,3/6/1997,Female,Asian,California,Single,Fair,Fair,9/8/2018,9/12/2018,A08.0,P08.0,Dr. Harris,NU008,Dr. Taylor,R08,ADM008,DCH008,10,Sore Throat,"$24,000 ",Humana,Debit Card
+9,Andrew,Moore,5/28/1998,Male,Hispanic,Texas,Married,Good,Good,9/9/2018,9/13/2018,A09.0,P09.0,Dr. Martin,NU009,Dr. Anderson,R09,ADM009,DCH009,10,Earache,"$27,000 ",Aetna,Credit Card
+10,Olivia,Taylor,9/20/1999,Female,Native American,Oregon,Single,Excellent,Excellent,9/10/2018,9/14/2018,A10.0,P10.0,Dr. Thompson,NU010,Dr. Clark,R10,ADM010,DCH010,11,Fatigue,"$30,000 ",Kaiser Permanente,Cash
+11,Joshua,Anderson,2/1/2000,Male,Caucasian,New York,Single,Good,Good,9/11/2018,9/15/2018,A11.0,P11.0,Dr. Jackson,NU011,Dr. Walker,R11,ADM011,DCH011,12,Anxiety,"$33,000 ",Blue Cross Blue Shield,Check
+12,Abigail,Thomas,4/17/2001,Female,African American,Illinois,Married,Excellent,Excellent,9/12/2018,9/16/2018,A12.0,P12.0,Dr. Lewis,NU012,Dr. Turner,R12,ADM012,DCH012,12,Depression,"$36,000 ",United Healthcare,Debit Card
+13,William,Jackson,6/30/2002,Male,Asian,California,Single,Fair,Fair,9/13/2018,9/17/2018,A13.0,P13.0,Dr. Harris,NU013,Dr. Taylor,R13,ADM013,DCH013,13,Insomnia,"$39,000 ",Humana,Credit Card
+14,Ava,Harris,9/12/2003,Female,Hispanic,Texas,Married,Good,Good,9/14/2018,9/18/2018,A14.0,P14.0,Dr. Martin,NU014,Dr. Anderson,R14,ADM014,DCH014,13,Nausea,"$42,000 ",Aetna,Cash
+15,James,Martin,11/25/2004,Male,Native American,Oregon,Single,Excellent,Excellent,9/15/2018,9/19/2018,A15.0,P15.0,Dr. Thompson,NU015,Dr. Clark,R15,ADM015,DCH015,14,Dizziness,"$45,000 ",Kaiser Permanente,Check
+16,Mia,Thompson,2/8/2005,Female,Caucasian,New York,Single,Good,Good,9/16/2018,9/20/2018,A16.0,P16.0,Dr. Jackson,NU016,Dr. Walker,R16,ADM016,DCH016,14,Stress,"$48,000 ",Blue Cross Blue Shield,Debit Card
+17,Noah,Garcia,4/22/2006,Male,African American,Illinois,Married,Excellent,Excellent,9/17/2018,9/21/2018,A17.0,P17.0,Dr. Lewis,NU017,Dr. Turner,R17,ADM017,DCH017,15,Constipation,"$51,000 ",United Healthcare,Credit Card
+18,Elizabeth,Robinson,7/5/2007,Female,Asian,California,Single,Fair,Fair,9/18/2018,9/22/2018,A18.0,P18.0,Dr. Harris,NU018,Dr. Taylor,R18,ADM018,DCH018,16,Diarrhea,"$54,000 ",Humana,Cash
+19,Daniel,Walker,9/18/2008,Male,Hispanic,Texas,Married,Good,Good,9/19/2018,9/23/2018,A19.0,P19.0,Dr. Martin,NU019,Dr. Anderson,R19,ADM019,DCH019,17,Joint Pain,"$57,000 ",Aetna,Check
+20,Samantha,White,12/1/2009,Female,Native American,Oregon,Single,Excellent,Excellent,9/20/2018,9/24/2018,A20.0,P20.0,Dr. Thompson,NU020,Dr. Clark,R20,ADM020,DCH020,18,Cough,"$60,000 ",Kaiser Permanente,Debit Card
+21,Anthony,Thomas,2/14/2010,Male,Caucasian,New York,Single,Good,Good,9/21/2018,9/25/2018,A21.0,P21.0,Dr. Jackson,NU021,Dr. Walker,R21,ADM021,DCH021,19,Sinus Infection,"$63,000 ",Blue Cross Blue Shield,Credit Card
+22,Isabella,Williams,4/28/2011,Female,African American,Illinois,Married,Excellent,Excellent,9/22/2018,9/26/2018,A22.0,P22.0,Dr. Lewis,NU022,Dr. Turner,R22,ADM022,DCH022,20,Bronchitis,"$66,000 ",United Healthcare,Cash
+23,Alexander,Johnson,7/11/2012,Male,Asian,California,Single,Fair,Fair,9/23/2018,9/27/2018,A23.0,P23.0,Dr. Harris,NU023,Dr. Taylor,R23,ADM023,DCH023,20,UTI,"$69,000 ",Humana,Check
+24,Mia,Gonzalez,9/25/2013,Female,Hispanic,Texas,Married,Good,Good,9/24/2018,9/28/2018,A24.0,P24.0,Dr. Martin,NU024,Dr. Anderson,R24,ADM024,DCH024,21,Pneumonia,"$72,000 ",Aetna,Debit Card
+25,William,Sanders,12/8/2014,Male,Native American,Oregon,Single,Excellent,Excellent,9/25/2018,9/29/2018,A25.0,P25.0,Dr. Thompson,NU025,Dr. Clark,R25,ADM025,DCH025,22,Asthma,"$75,000 ",Kaiser Permanente,Credit Card
+26,Joseph,Perez,2/21/2015,Male,Caucasian,New York,Single,Good,Good,9/26/2018,9/30/2018,A26.0,P26.0,Dr. Jackson,NU026,Dr. Walker,R26,ADM026,DCH026,23,Migraine,"$78,000 ",Blue Cross Blue Shield,Cash
+27,Olivia,Turner,5/5/2016,Female,African American,Illinois,Married,Excellent,Excellent,9/27/2018,10/1/2018,A27.0,P27.0,Dr. Lewis,NU027,Dr. Turner,R27,ADM027,DCH027,24,Heartburn,"$81,000 ",United Healthcare,Check
+28,Benjamin,Phillips,7/19/2017,Male,Asian,California,Single,Fair,Fair,9/28/2018,10/2/2018,A28.0,P28.0,Dr. Harris,NU028,Dr. Taylor,R28,ADM028,DCH028,25,Sore Muscles,"$84,000 ",Humana,Debit Card
+29,Chloe,Parker,10/2/2018,Female,Hispanic,Texas,Married,Good,Good,9/29/2018,10/3/2018,A29.0,P29.0,Dr. Martin,NU029,Dr. Anderson,R29,ADM029,DCH029,27,Rash,"$87,000 ",Aetna,Credit Card
+30,Nathan,Edwards,12/16/2019,Male,Native American,Oregon,Single,Excellent,Excellent,9/30/2018,10/4/2018,A30.0,P30.0,Dr. Thompson,NU030,Dr. Clark,R30,ADM030,DCH030,29,Hives,"$90,000 ",Kaiser Permanente,Cash
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
